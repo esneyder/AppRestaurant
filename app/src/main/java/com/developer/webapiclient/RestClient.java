@@ -17,7 +17,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RestClient {
     //You need to change the IP if you testing environment is not local machine
     //or you may have different URL than we have here
-    private static final String URL = "https://microsoft-apiapp454fa0f32a954e0a8fc8b56746f1a46a.azurewebsites.net/";
+    private static final String URL = "Url o ip del servicio web --/";
     private retrofit2.Retrofit restAdapter;
     private InstituteService apiService;
 
