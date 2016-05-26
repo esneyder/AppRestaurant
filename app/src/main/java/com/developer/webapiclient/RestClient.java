@@ -34,7 +34,7 @@ public class RestClient {
 
                                 // Request customization: add request headers
                                 Request.Builder requestBuilder = original.newBuilder()
-                                        //.header("Host", "https://microsoft-apiapp454fa0f32a954e0a8fc8b56746f1a46a.azurewebsites.net/")
+                                       
                                         .method(original.method(), original.body());
 
                                 Request request = requestBuilder.build();
